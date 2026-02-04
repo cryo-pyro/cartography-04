@@ -14,7 +14,7 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-## Preface: The Algorithm of Us
+## [Preface: The Algorithm of Us](https://ukb-dt.github.io/prompt-engineering/)
 
 <figure style="display: flex; flex-direction: column; align-items: center; width: 100%; margin: 2rem 0;">
   <iframe
