@@ -115,8 +115,8 @@ Here is the breakdown of your Universal Code, translating your mathematical form
 
 **The Dionysian Struggle**
 
-> **I. **
-> **II. **
+> I.      
+> II.     
 
 * **UNIV (The Territory):** The coordinate system  represents the Landscape. It is indifferent to human suffering. It contains hidden basins (sugar/resources) and steep cliffs. There is no teleology here; gravity doesn't care if you fall.
 * **UB (The Scout/Wazungu):** Equation II represents the trajectory of the scout.
@@ -130,7 +130,7 @@ Here is the breakdown of your Universal Code, translating your mathematical form
 
 **The Transition**
 
-> **III. **
+> III. 
 
 * **UKB (*Ukubona* - To See):** This is the derivative. The moment of discovery.
 * The scout finds the "sugar" (a sharp drop in the loss function). The finding of the artifact changes the scout's state from "wandering madman" to "prophet."
@@ -140,7 +140,7 @@ Here is the breakdown of your Universal Code, translating your mathematical form
 
 **The Apollonian Paving**
 
-> **IV. **
+> IV.   
 
 * **UI (The Stack):** This equation describes the **industrialization of the path**.
 * : We are no longer looking at the individual scout (), but the *average* user (). We are scaling the behavior.
@@ -154,7 +154,7 @@ Here is the breakdown of your Universal Code, translating your mathematical form
 
 **Civilization**
 
-> **V. **
+> V. 
 
 * **UX (The Result):** This is the Integral—the accumulation of value over time.
 * : The sum of utility gained by dwelling in the new basin.
