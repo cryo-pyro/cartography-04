@@ -597,19 +597,22 @@ Your framework weaves together chaos, biology, machine learning, philosophy, and
 
 The ant metaphor is spot-on and directly maps to real algorithms. Ant scouts forage stochastically (high risk, most die without return), laying pheromone trails only when they hit a strong reward (sugar basin). Those trails amplify gradients for followers, turning random exploration into collective gradient descent toward better minima. This is exactly Ant Colony Optimization (ACO), but you extend it to the universal engine: stochastic foraging (UB) reveals gradients (UKB = ukubona, witnessing the slope), descent follows (UI), and the colony settles into a new, lower basin (UX, lowered loss function, scar tissue from old attractors).
 
-<section class="card figure-card">
-  <figure class="figure solo-figure">
-    <div class="image-wrapper">
+
+<!-- Solo figure (responsive width) -->
+<div style="max-width: 70%; margin: 2rem auto; padding: 1.5rem; background: linear-gradient(145deg, #f8f9fa, #ffffff); border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.06);">
+  <figure style="margin: 0;">
+    <div style="overflow: hidden; border-radius: 8px; background: #fff;">
       <img 
         src="ukhona/ant-colony-simulation-game-prototype-pheromone-foraging.jpg" 
-        alt="Single figure description" 
-        class="figure-image"
+        alt="Single figure description"
+        style="width: 100%; height: auto; display: block;"
       >
     </div>
-    <figcaption class="figure-caption">Caption: Gradient descent in the loss landscape of Ibirunga</figcaption>
+    <figcaption style="margin-top: 1rem; text-align: center; color: #555; font-style: italic; font-size: 0.95rem; line-height: 1.5;">
+      Caption: Gradient descent in the loss landscape of Ibirunga
+    </figcaption>
   </figure>
-</section>
-
+</div>
 
 This image from an ant colony simulation shows the emergent "cartography": chaotic red/orange exploration trails converging into dense blue/yellow pheromone highways leading back to the colony. Pure Dionysian madness condensing into Apollonian order.
 
@@ -618,32 +621,35 @@ The "crazy ones" are the high-temperature explorers—Einstein, Nash, Joyce, Wat
 Raindrops offer a complementary physical analogy—random impacts, but each follows gravity's gradient, some vaporize on flat ground, others carve channels over time, terraforming the landscape through repeated small descents.
 
 
-
-
-<section class="card figure-card two-figures">
-  <div class="figures-grid">
-    <figure class="figure">
-      <div class="image-wrapper">
+<!-- Two adjacent figures (stacks on mobile) -->
+<div style="margin: 2rem auto; padding: 1.5rem; background: linear-gradient(145deg, #f8f9fa, #ffffff); border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.06);">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1.5rem;">
+    <figure style="margin: 0;">
+      <div style="overflow: hidden; border-radius: 8px; background: #fff;">
         <img 
           src="ukhona/raindrop-erosion.jpg" 
-          alt="Stochastic ant scout foraging" 
-          class="figure-image"
+          alt="Stochastic ant scout foraging"
+          style="width: 100%; height: auto; display: block;"
         >
       </div>
-      <figcaption class="figure-caption">Dionysian scout: high variance, most do not return</figcaption>
+      <figcaption style="margin-top: 0.75rem; text-align: center; color: #555; font-style: italic; font-size: 0.9rem; line-height: 1.4;">
+        Dionysian scout: high variance, most do not return
+      </figcaption>
     </figure>
-    <figure class="figure">
-      <div class="image-wrapper">
+    <figure style="margin: 0;">
+      <div style="overflow: hidden; border-radius: 8px; background: #fff;">
         <img 
           src="ukhona/terraforming.jpg" 
-          alt="Pheromone trail convergence" 
-          class="figure-image"
+          alt="Pheromone trail convergence"
+          style="width: 100%; height: auto; display: block;"
         >
       </div>
-      <figcaption class="figure-caption">Apollonian convergence: gradient descent to the basin</figcaption>
+      <figcaption style="margin-top: 0.75rem; text-align: center; color: #555; font-style: italic; font-size: 0.9rem; line-height: 1.4;">
+        Apollonian convergence: gradient descent to the basin
+      </figcaption>
     </figure>
   </div>
-</section>
+</div>
 
 
 
@@ -652,43 +658,47 @@ Raindrop impact (left) creates splash craters; storm over sculpted rock (right) 
 In machine learning, this is literally how we optimize: the loss landscape is rugged, full of local minima, saddle points, and rare deep basins.
 
 
-
-
-
-<section class="card figure-card three-figures">
-  <div class="figures-grid">
-    <figure class="figure">
-      <div class="image-wrapper">
+<!-- Three adjacent figures (stacks on mobile) -->
+<div style="margin: 2rem auto; padding: 1.5rem; background: linear-gradient(145deg, #f8f9fa, #ffffff); border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.06);">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 1.25rem;">
+    <figure style="margin: 0;">
+      <div style="overflow: hidden; border-radius: 8px; background: #fff;">
         <img 
           src="ukhona/ls-1.jpg" 
-          alt="Raindrops terraforming flat surface" 
-          class="figure-image"
+          alt="Raindrops terraforming flat surface"
+          style="width: 100%; height: auto; display: block;"
         >
       </div>
-      <figcaption class="figure-caption">Stochastic impacts on flat ground → vaporize</figcaption>
+      <figcaption style="margin-top: 0.75rem; text-align: center; color: #555; font-style: italic; font-size: 0.85rem; line-height: 1.4;">
+        Stochastic impacts on flat ground → vaporize
+      </figcaption>
     </figure>
-    <figure class="figure">
-      <div class="image-wrapper">
+    <figure style="margin: 0;">
+      <div style="overflow: hidden; border-radius: 8px; background: #fff;">
         <img 
           src="ukhona/ls-2.jpg" 
-          alt="Raindrops carving gradient channels" 
-          class="figure-image"
+          alt="Raindrops carving gradient channels"
+          style="width: 100%; height: auto; display: block;"
         >
       </div>
-      <figcaption class="figure-caption">Gradient flow → erosion and basin formation</figcaption>
+      <figcaption style="margin-top: 0.75rem; text-align: center; color: #555; font-style: italic; font-size: 0.85rem; line-height: 1.4;">
+        Gradient flow → erosion and basin formation
+      </figcaption>
     </figure>
-    <figure class="figure">
-      <div class="image-wrapper">
+    <figure style="margin: 0;">
+      <div style="overflow: hidden; border-radius: 8px; background: #fff;">
         <img 
           src="ukhona/ls-3.jpg" 
-          alt="Deep attractor basin after repeated descent" 
-          class="figure-image"
+          alt="Deep attractor basin after repeated descent"
+          style="width: 100%; height: auto; display: block;"
         >
       </div>
-      <figcaption class="figure-caption">Lowered loss: new stable basin (UX)</figcaption>
+      <figcaption style="margin-top: 0.75rem; text-align: center; color: #555; font-style: italic; font-size: 0.85rem; line-height: 1.4;">
+        Lowered loss: new stable basin (UX)
+      </figcaption>
     </figure>
   </div>
-</section>
+</div>
 
 Classic loss surface with local/global minima (top left); smooth gradient descent path down a valley (top right); spiky, multifractal landscape where simple descent fails and stochastic methods are essential (bottom). The trajectory often looks like ant paths—zigzagging noise until it hits a good attractor.
 
